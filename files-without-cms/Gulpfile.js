@@ -266,7 +266,8 @@ gulp.task( 'rel:watch:html', function () {
 gulp.task( 'dev:server', function() {
     browserSync.init({
         browser: [ "firefox" ],
-        proxy: "folder/to/files-without-cms/source/php/page-builder.php"
+
+        proxy: "localhost/2-Trainings/CSS/BEM/bem-ex-1-nango-home-01.loc/files-without-cms/source/php/page-builder.php"
     });
 
     browserSync.watch(
@@ -288,7 +289,7 @@ gulp.task( 'dev:server', function() {
 gulp.task( 'rel:server', function() {
     browserSync.init({
         browser: [ "firefox" ],
-        proxy: "folder/to/files-without-cms/build/"
+        proxy: "localhost/2-Trainings/CSS/BEM/bem-ex-1-nango-home-01.loc/files-without-cms/build/"
     });
 
     browserSync.watch(
