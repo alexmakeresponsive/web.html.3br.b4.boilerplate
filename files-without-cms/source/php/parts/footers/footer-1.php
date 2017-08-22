@@ -3,7 +3,7 @@
         <div class="row">
 
             <div class="col">
-                <img src="../assets/template/images/header/OM6QGG0.png" width="100" alt="header-logo">
+                <img src="../assets/template/images/logo/OM6QGG0.png" width="100" alt="header-logo">
             </div>
 
             <div class="col-6">
