@@ -113,7 +113,7 @@ lazyRequireTask( 'rel:styles:nano', './Gulptasks/rel/styles/styles-nano', {
  * */
 
 lazyRequireTask( 'dev:js', './Gulptasks/dev/js/js', {
-    src1:  'source/resources/template/scripts/divided/pages/**/*.js',
+    src1:  'source/resources/template/scripts/divided/**/*.js',
     src2:  'source/resources/template/scripts/common.js',
     dest:  'source/resources/template/scripts/assembled'
 } );
@@ -239,7 +239,7 @@ gulp.task( 'dev:watch:styles', function () {
 
 
 gulp.task( 'dev:watch:js', function () {
-    gulp.watch( 'source/resources/template/scripts/divided/pages/*.js', ['dev:build:js'] );
+    gulp.watch( 'source/resources/template/scripts/divided/**/*.js', ['dev:build:js'] );
 });
 
 
