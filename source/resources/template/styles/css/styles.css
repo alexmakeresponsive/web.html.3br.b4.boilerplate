@@ -1,0 +1,19 @@
+html, body {
+  height: 100%; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.page-wrapper {
+  height: 100%; }
+
+.buttons.button-nav-menu-1 {
+  border: 1px solid #000;
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 10px;
+  padding-bottom: 3px; }
+
+/*# sourceMappingURL=styles.css.map */
